@@ -1,0 +1,22 @@
+{
+  "name": "flamecoin-v4",
+  "version": "4.0.0",
+  "description": "FlameCoin V4 - Autonomous Asset Protection System",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js",
+    "lint": "eslint src/"
+  },
+  "keywords": ["cryptocurrency", "blockchain", "flm4", "asset-protection"],
+  "author": "chaishillomnitech1",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0"
+  }
+}
